@@ -5,15 +5,43 @@ namespace ProgramTP2
 {
     class Evaluation   // Base class
     {
-         private string name ;
+
+        private string name;
+        private DateTime datedebut;
+       
+
+
+        public Evaluation()
+        {
+           name= "exam C sharp";
+        }
         public string Name   // property
         {
             get { return name; }   // get method
             set { name = value; }  // set method
         }
+        public DateTime datedebu  // property
+        {
+            get { return datedebu; }   // get method
+            set { datedebu = value; }  // set method
+        }
+
+       
 
 
 
     }
-}
+
+   
+
+
+    }
+
+
+
+
+
+
+
+
 
