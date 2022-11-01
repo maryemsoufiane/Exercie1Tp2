@@ -8,7 +8,8 @@ namespace ProgramTP2
 
         private string name;
         private DateTime datedebut;
-       
+        private int NotGlobale;
+
 
 
         public Evaluation()
